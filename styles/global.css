@@ -35,3 +35,11 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: var(--preto-absoluto);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
