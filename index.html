@@ -10,32 +10,58 @@
   </head>
   <body>
     <header>
-      <a href="index.html" title="Voltar a pagina inicial"
+      <a class="logo" href="index.html" title="Voltar a pagina inicial"
         ><img
+          class="img__mobile"
           src="./images/logo-Viagens-Branca.svg"
-          alt="bussola jornada preta logo"
+          alt="bussola jornada preta logo" />
+        <img
+          class="img__desktop"
+          src="./images/Logo-provisória-branca 1.png"
+          alt="logo Jornada cor branco"
       /></a>
-      <img src="./images/menu.svg" alt="menu header" />
-      <nav>
-        <ul>
-          <li>
-            <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
-          </li>
-          <li>
-            <a
-              href="pacotes.html"
-              target="_blank"
-              title="Acessar pacotes de viagem"
-              >Pacotes de Viagem</a
-            >
-          </li>
-          <li>
-            <a href="contato.html" target="_blank" title="Acessar a aba Contato"
-              >Contato</a
-            >
-          </li>
-        </ul>
-      </nav>
+      <div class="menu__hamburguer">
+        <label for="menu">
+          <img
+            class="imagem__menu_hamburguer"
+            src="./images/menu.svg"
+            alt="menu header"
+          />
+        </label>
+        <input type="checkbox" id="menu" hidden />
+
+        <nav>
+          <ul class="menu__lists_links">
+            <li class="lists__link">
+              <a
+                class="header__links"
+                href="blog.html"
+                target="_blank"
+                title="Acessar Blog"
+                >Blog</a
+              >
+            </li>
+            <li class="lists__link">
+              <a
+                class="header__links"
+                href="pacotes.html"
+                target="_blank"
+                title="Acessar pacotes de viagem"
+                >Pacotes de Viagem</a
+              >
+            </li>
+            <li class="lists__link">
+              <a
+                class="header__links"
+                href="contato.html"
+                target="_blank"
+                title="Acessar a aba Contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   </body>
 </html>
