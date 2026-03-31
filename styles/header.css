@@ -72,6 +72,9 @@ nav {
   }
 }
 
+.img__desktop {
+  display: none;
+}
 @media screen and (min-width: 1024px) {
   .logo {
     width: 260px;

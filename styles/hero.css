@@ -1,0 +1,51 @@
+.img__hero {
+  background: url(../images/hero__image_barco.jpg) no-repeat;
+  height: 400px;
+  width: 100%;
+  background-size: 100%;
+}
+
+.texto__section {
+  text-align: center;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  color: var(--cinza-escuro);
+  padding: 88px 24px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .img__hero {
+    background: url(../images/hero__image_barco_tablet.jpg) no-repeat;
+    width: 100%;
+    background-size: 100%;
+    height: 620px;
+  }
+
+  .texto__section {
+    font-size: 32px;
+    line-height: 1.5;
+    padding: 88px 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img__hero {
+    background: url(../images/hero_desktop.jpg) no-repeat;
+    background-size: 100%;
+    height: 620px;
+  }
+
+  .texto__section {
+    line-height: 1.5;
+    padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .texto__section {
+    line-height: 1.5;
+    padding: 88px 160px;
+  }
+}
