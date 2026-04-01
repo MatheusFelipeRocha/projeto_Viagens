@@ -39,4 +39,40 @@ button {
 
 body {
   font-family: "Montserrat";
+  color: var(--cinza-escuro);
+}
+
+.section__title h2 {
+  font-size: 32px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section__title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--vermelho-vivo);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  background-color: var(--vermelho-vivo);
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  text-decoration: none;
+  color: var(--branco-puro);
+  display: inline-block;
+  text-align: center;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--vermelho-escuro);
+  }
 }
