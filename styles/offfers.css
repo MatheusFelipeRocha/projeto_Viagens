@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 104px;
 }
 
-.card {
+.offers__cards .card {
   color: var(--branco-puro);
   width: 312px;
   height: 288px;
@@ -37,8 +38,9 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-bottom: 88px;
 }
-.card header {
+.offers__cards .card header {
   display: block;
   position: static;
   padding: 0;
@@ -46,19 +48,19 @@
   margin-bottom: 24px;
 }
 
-.card header p {
+.offers__cards .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
   padding-top: 24px;
 }
 
-.card header h3 {
+.offers__cards .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
   margin: 8px 0 0;
 }
 
-.card header span {
+.offers__cards .card header span {
   font-size: 32px;
   font-weight: var(--title-weight);
   margin-top: 24px;
@@ -73,21 +75,21 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .card {
+  .offers__cards .card {
     width: 488px;
     height: 308px;
   }
 
-  .card header h3 {
+  .offers__cards .card header h3 {
     font-size: 48px;
   }
-  .card header span {
+  .offers__cards .card header span {
     font-size: 40px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers__cards .card {
     width: 588px;
     height: 308px;
   }
@@ -102,7 +104,7 @@
     justify-content: center;
   }
 
-  .card {
+  .offers__cards .card {
     width: 588px;
   }
 }
