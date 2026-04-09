@@ -1,0 +1,92 @@
+.payments {
+  padding: 24px;
+}
+
+.text-content h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.text-content p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  padding: 24px 0;
+}
+
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  width: 100%;
+}
+
+.payments .content_conteiner .image-gallery .image.first {
+  background-image: url(../images/grid_image_japan_mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.payments .content_conteiner .image-gallery .image.second {
+  background-image: url(../images/grid_image_passport_mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.payments .content_conteiner .image-gallery .image.thirdy {
+  background-image: url(../images/grid_image_people_mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.payments .content_conteiner .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    padding: 60px;
+  }
+  .payments .content_conteiner .image-gallery .image.first {
+    background-image: url(../images/grid_image_japan_tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+  }
+
+  .payments .content_conteiner .image-gallery .image.second {
+    background-image: url(../images/grid_image_passport_tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+  }
+
+  .payments .content_conteiner .image-gallery .image.thirdy {
+    background-image: url(../images/grid_image_people_tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content_conteiner {
+    display: flex;
+  }
+
+  .payments .text-content {
+    width: 360px;
+  }
+
+  .payments .image-gallery {
+    width: 790px;
+  }
+
+  .payments .content_conteiner {
+    justify-content: space-between;
+  }
+}
