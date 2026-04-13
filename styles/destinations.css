@@ -45,13 +45,13 @@
   background-image: url(../images/destino_osaka_mobile.png);
 }
 
-.destinations-items .item h4,
+.destinations-items .item h3,
 .destinations-items .item p,
 .destinations-items .item footer {
   padding: 0 24px;
 }
 
-.destinations-items .item h4 {
+.destinations-items .item h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
 }
@@ -103,7 +103,7 @@
     width: 488px;
   }
 
-  .destinations-items .item h4 {
+  .destinations-items .item h3 {
     font-size: 32px;
   }
 

@@ -1,0 +1,79 @@
+.footer_img_hero {
+  background-image: url(../images/footer_hero_mobile.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+  margin-top: 88px;
+}
+
+.opening_hours {
+  background-color: var(--preto-absoluto);
+  color: var(--off-white);
+  text-align: center;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: var(--text-weight);
+  padding: 32px 0;
+}
+
+.text_hours {
+  padding: 16px 24px 32px;
+}
+
+.icons {
+  padding: 0 8px;
+}
+
+.footer_social_media {
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer_img_hero {
+    background-image: url(../images/footer_hero_tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer_img_hero {
+    background-image: url(../images/footer_hero_desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 104px;
+  }
+
+  .opening_hours {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 120px;
+    text-align: left;
+  }
+
+  .icon_img_jornada {
+    flex-shrink: 0;
+  }
+
+  .desktop_jorney {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding-left: 60px;
+  }
+
+  .footer_social_media {
+    padding-bottom: 0;
+    margin-right: 16px;
+  }
+
+  .social_media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
