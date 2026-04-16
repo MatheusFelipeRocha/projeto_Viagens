@@ -1,7 +1,10 @@
 .payments {
   padding: 24px;
 }
-
+.text-content .price {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
 .text-content h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -12,6 +15,11 @@
   font-weight: var(--text-weight);
   line-height: 32px;
   padding: 24px 0;
+}
+
+.button.button-unique {
+  width: 100%;
+  margin-bottom: 24px;
 }
 
 .payments .image-gallery {
@@ -29,11 +37,21 @@
   border-radius: 16px;
 }
 
+.payments .content_conteiner .image-gallery .image.first.image--japan {
+  background-image: url(../images/excursion__japan_mobile.png);
+  height: 254px;
+}
+
 .payments .content_conteiner .image-gallery .image.second {
   background-image: url(../images/grid_image_passport_mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
+}
+
+.payments .content_conteiner .image-gallery .image.second.image--city-japan {
+  background-image: url(../images/excursion__japan_city_mobile.png);
+  height: 254px;
 }
 
 .payments .content_conteiner .image-gallery .image.thirdy {
@@ -43,6 +61,11 @@
   border-radius: 16px;
 }
 
+.payments .content_conteiner .image-gallery .image.thirdy.image--bridge-japan {
+  background-image: url(../images/excursion__japan_bridge_mobile.png);
+  height: 182px;
+}
+
 .payments .content_conteiner .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
@@ -50,6 +73,10 @@
 @media screen and (min-width: 768px) {
   .payments {
     padding: 60px;
+  }
+
+  .button.button-unique {
+    display: none;
   }
   .payments .content_conteiner .image-gallery .image.first {
     background-image: url(../images/grid_image_japan_tablet.png);

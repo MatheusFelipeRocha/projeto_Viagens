@@ -6,6 +6,10 @@
   margin-top: 88px;
 }
 
+.footer_img_hero.img_hero-pack {
+  background-image: url(../images/footer_hero_mobile-pacotes.jpg);
+}
+
 .opening_hours {
   background-color: var(--preto-absoluto);
   color: var(--off-white);
@@ -34,6 +38,10 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .footer_img_hero.img_hero-pack {
+    background-image: url(../images/footer_hero_tablet-pacotes.jpg);
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -42,6 +50,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 104px;
+  }
+
+  .footer_img_hero.img_hero-pack {
+    background-image: url(../images/footer_hero_desktop-pacotes.jpg);
+    height: 600px;
   }
 
   .opening_hours {
